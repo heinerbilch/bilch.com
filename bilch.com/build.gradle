@@ -26,17 +26,12 @@ jbake { clearCache = true }
 def siteDir = "$buildDir/jbake"
 
 githubPages {
-	//  repoUri = 'git@github.com:msgilligan/msgilligan.github.io.git'
 	repoUri = 'https://github.com/heinerbilch/heinerbilch.github.io.git'
 	targetBranch = 'master'
 
 	pages {
 		from(file("$siteDir")) { into '.' }
 	}
-//	credentials {
-//		username = msgGithubAccessToken
-//		password = ''
-//	}
 }
 
 publishGhPages.dependsOn jbake
