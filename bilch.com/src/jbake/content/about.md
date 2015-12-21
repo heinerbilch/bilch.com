@@ -13,7 +13,7 @@ Current [operating systems](http://people.freebsd.org/~kris/scaling/dfly.html) c
 
 ## Sweep3D
 
-Explicit parallelism is by domain decomposition and message-passing. This version of Sweep3D supports MPI message passing libraries as well as a single processor version. Here is a [description](http://wwwc3.lanl.gov/pal/software/sweep3d/sweep3d_readme.html) Here are [older benchmarks](http://www.cs.rice.edu/~alc/superpages/) where I found the starting point.
+Explicit parallelism is by domain decomposition and message-passing. This version of [Sweep3D](blog/2015/sweep3d-benchmark.html) supports MPI message passing libraries as well as a single processor version. Here is a [description](http://github.com/heinerbilch/sweep3d) Here are [older benchmarks](http://www.cs.rice.edu/~alc/superpages/) where I found the starting point.
 ![ASC Logo](ASC_co_sm.jpg)
 
 ## Benchmarks
