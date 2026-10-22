@@ -2,3 +2,7 @@
 /gradle/
 /build.gradle~
 /bin/
+.gradle/
+.project
+.settings/
+output/
